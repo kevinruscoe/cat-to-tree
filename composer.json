@@ -1,0 +1,5 @@
+{
+    "require": {
+        "drupol/phptree": "^2.4"
+    }
+}

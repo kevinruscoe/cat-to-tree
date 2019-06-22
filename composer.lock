@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "86ef6aca088269b81670407fb43e2a38",
+    "packages": [
+        {
+            "name": "drupol/phptree",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupol/phptree.git",
+                "reference": "e543e7b3c057b24b550e376c1f976b73e0f74132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drupol/phptree/zipball/e543e7b3c057b24b550e376c1f976b73e0f74132",
+                "reference": "e543e7b3c057b24b550e376c1f976b73e0f74132",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "drupol/php-conventions": "^1",
+                "drupol/phpspec-annotation": "^1",
+                "graphp/graphviz": "^0.2",
+                "infection/infection": "^0.12",
+                "leanphp/phpspec-code-coverage": "^4",
+                "phpbench/phpbench": "^0.16",
+                "phpspec/phpspec": "^4",
+                "phptaskman/changelog": "^1.0",
+                "scrutinizer/ocular": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "drupol\\phptree\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pol Dellaiera",
+                    "email": "pol.dellaiera@protonmail.com"
+                }
+            ],
+            "description": "An implementation of tree data structure",
+            "keywords": [
+                "binary tree",
+                "data structure",
+                "php",
+                "tree"
+            ],
+            "time": "2019-06-15T14:27:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
